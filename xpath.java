@@ -16,7 +16,7 @@ public class xpath {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");	
 		 findElement(By.xpath("//button[@onclick='normalAlert()']")).sendkeys("asvdd@gamil")  ;                                                                                                                                                                                                                                                                                                                                                                       
-		
+		driver.manage().windwo().maxmize();
 		
 		
 		
